@@ -214,6 +214,14 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.validators_wrapper {
+    display: flex;
+    padding-left: 2%;
+}
+.validators_wrapper img {
+    max-height: 3vh;
+    padding-left: 2%;
+}
 @media only screen and (max-width: 760px){
     .links_wrapper{
         width: 90%;
