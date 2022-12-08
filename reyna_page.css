@@ -207,7 +207,7 @@ iframe{
 }
 footer{
     width: 100%;
-    min-height: 4vh;
+    min-height: 5vh;
     height: auto;
     background-color: #19232d;
     display: flex;
