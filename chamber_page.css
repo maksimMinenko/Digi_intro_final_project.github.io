@@ -206,12 +206,21 @@ iframe{
 }
 footer{
     width: 100%;
-    min-height: 4vh;
+    min-height: 5vh;
     height: auto;
     background-color: #19232d;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.validators_wrapper{
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+.validators_wrapper img{
+    max-height: 3vh;
+    padding-left: 2%;
 }
 @media only screen and (max-width: 760px){
     body{
