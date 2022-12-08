@@ -209,12 +209,22 @@ iframe{
 }
 footer{
     width: 100%;
-    min-height: 4vh;
+    min-height: 5vh;
     height: auto;
     background-color: #19232d;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.validators_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1%;
+    min-width: 150px;
+}
+.validators_wrapper img{
+    max-height: 3vh;
 }
 @media only screen and (max-width: 760px){
     .links_wrapper{
@@ -283,6 +293,11 @@ footer{
     .iframe_wrapper{
         width: 320px;
         height: 300px;
+    }
+    footer{
+        margin-top: 2%;
+        height: 10vh;
+        flex-wrap: wrap;
     }
 }
 @media only screen and (min-width: 760px) and (max-width: 990px){

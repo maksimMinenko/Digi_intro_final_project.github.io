@@ -3,7 +3,7 @@
     font:  1rem "Arial", serif;
     margin: 0;
     padding: 0;
-    color: aliceblue;
+    color: aliceblue    ;
 }
 body{
     width: 100%;
@@ -216,12 +216,13 @@ footer{
 }
 .validators_wrapper{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 2%;
+    padding-left: 1%;
+    min-width: 150px;
 }
 .validators_wrapper img{
     max-height: 3vh;
-    padding-left: 2%;
 }
 @media only screen and (max-width: 760px){
     .links_wrapper{
@@ -284,6 +285,11 @@ footer{
     .iframe_wrapper{
         width: 320px;
         height: 300px;
+    }
+    footer{
+        margin-top: 2%;
+        height: 10vh;
+        flex-wrap: wrap;
     }
 }
 @media only screen and (min-width: 760px) and (max-width: 1100px){
