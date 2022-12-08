@@ -216,7 +216,7 @@ footer{
 .validators_wrapper{
     display: flex;
     align-items: center;
-    padding-left: 2%;
+    padding-left: 4%;
 }
 .validators_wrapper img{
     max-height: 3vh;
