@@ -250,7 +250,6 @@ footer{
     .character_info{
         flex-wrap: wrap;
         height: 100%;
-        border: 3px solid red;
     }
     .biography{
         margin-top: 20px;
