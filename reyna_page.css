@@ -216,6 +216,7 @@ footer{
 }
 .validators_wrapper{
     display: flex;
+    align-items: center;
     padding-left: 2%;
 }
 .validators_wrapper img{
